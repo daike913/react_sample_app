@@ -2,7 +2,7 @@
 const { resolve } = require('path')
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   devtool: 'inline-source-map',
   entry: resolve(__dirname, 'src/index.jsx'),
   output: {
